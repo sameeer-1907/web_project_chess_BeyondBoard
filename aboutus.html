@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<link rel="stylesheet" href="aboutustyles.css">
+</head>
+<body background="bg1.png">
+  <div class="name">
+    <h1>About us - BeyondBoard </h1> &nbsp; &nbsp;&nbsp;&nbsp;
+    <img src="chesslogo.png" alt="logo" width="50px"; height="50px";>
+  </div>
+
+    <div class="vid">
+        <video id="hoverVideo" width="640" height="360"  muted controls onclick="play()">
+        <source src="vid1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="matter">
+        <p style="font-size:large">
+            Our mission is to empower individuals through the art of chess. We believe that chess is more than just a game; it's a powerful tool that enhances critical thinking, problem-solving, and strategic decision-making. Through our platform, we strive to make the world of chess accessible to everyone, fostering a global community of learners, thinkers, and players.
+        </p>
+    </div>
+
+    <div class="privacy-section1">
+        <div  class="bottom-links-box1" > 
+            <a href="https://razorpay.com/" class="bottom-links1" > <h3> Contribute towards us</h3>  </a>
+        </div>
+        </div>  
+      
+          <div class="img">
+              <img src="rights.png" alt="all rights reserved" width="auto" height="auto" > 
+          </div>
+      </div>
+
+    <script>
+       const hoverVideo = document.getElementById('hoverVideo');
+
+hoverVideo.addEventListener('mouseenter', function() {
+  this.play();
+});
+
+hoverVideo.addEventListener('mouseleave', function() {
+  this.pause();
+});
+    </script>
+</body>
+</html>

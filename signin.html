@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <title>BeyondBoard-signin</title>
+</head>
+<body style="background-color:#f1f1f1; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+
+  <div class="name">
+    <h1 style="font-size:xx-larger;">Beyond Board</h1>
+    <h4>Eveything you need to know about chess and beyond</h4>
+  </div>
+
+
+  <div class="containerA">
+    <div class="container-left">
+      <div>
+        <h1 style="font-size: large; margin-left:180px; margin-top:50px;"> 
+          <h1 style="font-size:larger" class="content-margin-head"> Already a member? Welcome back!</h1>
+          <h3 class="content-margin-head">  What Awaits You:</h3>
+
+            <h3 class="content-margin-head"> Endless Challenges:</h3>
+            <p class="content-margin-matter"> Prepare to challenge fellow chess enthusiasts from around the globe. Test your skills against players of varying expertise levels, from beginners to grandmasters.</p>
+            
+            <h3 class="content-margin-head"> Learning Hub:</h3> 
+              <p class="content-margin-matter"> Immerse yourself in our comprehensive learning resources. Whether you're a newcomer to the game or a seasoned player, you'll find tutorials, tactics, and strategies to elevate your game.</p>
+              </div>
+    <div class="image">
+      <img src="shine3d.png" alt="chess" width="683px;" height="384px">
+    </div>
+    </div>
+
+    <div class="container-right">
+
+    
+    <div class="form-container">
+      <h2 style="text-align: center;">Sign In</h2>
+      
+      <form method="post" action="signinconn.php">
+        <div class="box-space">
+          <label for="username">UserName</label>
+          <input type="text" id="name" name="username" required>
+        </div>
+        
+        <div class="box-space">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <button type="submit">Login</button>
+      </form>
+
+      <div class="signup-link">
+        Don't have an account? <a href="simpleform.php">Sign up</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

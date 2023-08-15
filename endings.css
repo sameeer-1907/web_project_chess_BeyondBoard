@@ -1,0 +1,101 @@
+.name {
+    justify-content:center;
+    align-items:center;
+    width:auto;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display:flex;
+    margin-bottom:5px;
+  }
+
+  .link {
+    margin: 10px;
+    cursor: pointer;
+    margin-left:5%;
+  
+  }
+
+  .containerB {
+    display:flex;
+    justify-content: center;
+    width:auto;
+    height:4%;
+    border:none;
+    align-items:center;
+    background-color: #dcdddf;
+  }
+  
+  .link-margin-bar{
+    margin-left:10px;
+    margin-right:10px;
+    padding:20px;
+  }
+  
+  .bar{
+    font-size:20px;
+    color:black;
+  }
+
+  .heading{
+    color:white;
+    font-size:large;
+    border:2px solid black;
+    border-radius:4px;
+    background-color: #333;
+    padding:10px;
+  }
+
+  .all{
+    display:flex;
+   justify-content:center;
+  }
+  
+  section {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius:20px;
+    background-color: #bbbbbb;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+
+  .description{
+    justify-content: center;
+    font-size: medium;
+    color:black;
+  }
+
+  .content{
+    width:90%;
+    margin-right:20px;
+  }
+
+  .image{
+    width:30%;
+    padding-left:70px;
+    margin-top:50px;
+    margin-left: 50px;
+  }
+
+  .image1{
+    width:30%;
+    padding-left:70px;
+    margin-top:10px;
+    margin-left: 50px;
+  }
+
+  .together{
+    display:flex;
+  }
+
+  .size{
+    font-size:x-large;
+  }
+
+  .vid{
+   display:flex;
+   justify-content: center;
+}

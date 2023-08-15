@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.containerA{
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 28px;
+}
+
+.masters-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.chess-box {
+    background-color: #d1d1d1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.cches-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.chess-box h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.chess-box p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.chess-box a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.chess-box a:hover {
+    background-color: #0056b3;
+}
+
+.name {
+    text-align: center;
+    width:auto;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom:20px;
+  }
+
+  .name1 {
+    text-align: center;
+    width:auto;
+    margin-top:20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }

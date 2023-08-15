@@ -1,0 +1,60 @@
+.name {
+    text-align: center;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding:10px;
+    display:flex;
+  }
+
+  .bg-image-div {
+    background-image: url('resourcesbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+
+.header h4 {
+    font-size: 18px;
+}
+
+.resource-link {
+    text-decoration: none;
+    color: black;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.link-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius:10px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.link-box:hover {
+    background-color: rgba(106, 106, 106, 0.2);
+}
+
+.link-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.link-box p {
+    font-size: 16px;
+}
+
+.align{
+    margin-left:200px;
+    margin-right:200px;
+    color:#333;
+}
